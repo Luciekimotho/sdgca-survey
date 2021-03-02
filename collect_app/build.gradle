@@ -55,9 +55,6 @@ def getVersionName = { ->
             }
             standardOutput = stdout
         }
-        println 'Build', stdout.toString()
-        project.logger.debug('Build', stdout.toString())
-
         return stdout.toString().trim()
     } catch (ignored) {
         return null
@@ -76,7 +73,7 @@ android {
     compileSdkVersion(29)
 
     defaultConfig {
-        applicationId('org.sdg.collect.android')
+        applicationId('org.sdgtest.collect.android')
         minSdkVersion(21)
         targetSdkVersion(29)
         versionCode getMasterCommitCount()
@@ -101,7 +98,7 @@ android {
     flavorDimensions "version"
 
     productFlavors {
-        kobo {
+        sdgtest {
             applicationId "org.sdgtest.collect.android"
             buildConfigField 'String', 'AUTHORITY', '"org.sdgtest.collect.android"'
             resValue("bool", "FIREBASE_ENABLED", "true")

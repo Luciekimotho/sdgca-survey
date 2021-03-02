@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <org.odk.collect.material.MaterialBanner
+            <org.sdgtest.collect.material.MaterialBanner
                 android:id="@+id/storageMigrationBanner"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -36,7 +36,7 @@
                 custom:secondaryActionColor="true" />
             
             <fragment
-                android:name="org.odk.collect.android.fragments.MapBoxInitializationFragment"
+                android:name="org.sdgtest.collect.android.fragments.MapBoxInitializationFragment"
                 android:id="@+id/map_box_initialization_fragment"
                 android:layout_width="match_parent"
                 android:layout_height="1dp">
