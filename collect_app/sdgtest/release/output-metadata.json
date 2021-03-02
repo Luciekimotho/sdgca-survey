@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "org.sdgtest.collect.android",
+  "variantName": "processSdgtestReleaseResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 2,
+      "versionName": "v1.0.1",
+      "outputFile": "collect-sdgtest-release-v1.0.1.apk"
+    }
+  ]
+}
