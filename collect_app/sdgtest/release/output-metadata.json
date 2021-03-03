@@ -10,9 +10,9 @@
     {
       "type": "SINGLE",
       "filters": [],
-      "versionCode": 2,
-      "versionName": "v1.0.1",
-      "outputFile": "collect-sdgtest-release-v1.0.1.apk"
+      "versionCode": 3,
+      "versionName": "v1.0.1-1-gf16ff88",
+      "outputFile": "collect-sdgtest-release-v1.0.1-1-gf16ff88.apk"
     }
   ]
 }
