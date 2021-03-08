@@ -73,7 +73,7 @@ android {
     compileSdkVersion(29)
 
     defaultConfig {
-        applicationId('org.sdgtest.collect.android')
+        applicationId('org.sdg.collect.android')
         minSdkVersion(21)
         targetSdkVersion(29)
         versionCode getMasterCommitCount()
@@ -98,9 +98,9 @@ android {
     flavorDimensions "version"
 
     productFlavors {
-        sdgtest {
-            applicationId "org.sdgtest.collect.android"
-            buildConfigField 'String', 'AUTHORITY', '"org.sdgtest.collect.android"'
+        sdg {
+            applicationId "org.sdg.collect.android"
+            buildConfigField 'String', 'AUTHORITY', '"org.sdg.collect.android"'
             resValue("bool", "FIREBASE_ENABLED", "true")
         }
     }
@@ -114,7 +114,7 @@ android {
             }
             minifyEnabled(false)
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
-            resValue("bool", "CRASHLYTICS_ENABLED", "false")
+            resValue("bool", "CRASHLYTICS_ENABLED", "true")
             resValue("string", "GOOGLE_MAPS_API_KEY", googleMapsApiKey)
             buildConfigField 'String', "MAPBOX_ACCESS_TOKEN", '"' + mapboxToken + '"'
         }

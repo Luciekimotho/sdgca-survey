@@ -43,7 +43,7 @@
         android:visibility="gone"
         tools:visibility="visible" />
 
-    <org.sdgtest.collect.android.views.ProgressBar
+    <org.sdg.collect.android.views.ProgressBar
         android:id="@+id/progress_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

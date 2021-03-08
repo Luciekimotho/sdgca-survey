@@ -4,15 +4,15 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "org.sdgtest.collect.android",
-  "variantName": "processSdgtestReleaseResources",
+  "applicationId": "org.sdg.collect.android",
+  "variantName": "processsdgReleaseResources",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "versionCode": 3,
       "versionName": "v1.0.1-1-gf16ff88",
-      "outputFile": "collect-sdgtest-release-v1.0.1-1-gf16ff88.apk"
+      "outputFile": "collect-sdg-release-v1.0.1-1-gf16ff88.apk"
     }
   ]
 }
